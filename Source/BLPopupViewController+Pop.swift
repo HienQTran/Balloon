@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension BLPopupViewController {
-    func pop() {
+    public func pop() {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIViewController()
         window.windowLevel = UIWindowLevelAlert + 1
