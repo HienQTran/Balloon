@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Balloon'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'An easy way to create a popup in iOS'
  
   s.description      = <<-DESC
