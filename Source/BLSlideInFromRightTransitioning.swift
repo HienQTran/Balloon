@@ -8,12 +8,12 @@
 
 import UIKit
 
-class BLSlideInFromRightTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+public final class BLSlideInFromRightTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.4
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         if let toViewController = transitionContext.viewController(forKey: .to),
             let toView = transitionContext.view(forKey: .to) {
             

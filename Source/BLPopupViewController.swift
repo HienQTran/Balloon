@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BLPopupViewController: UIViewController {
+public class BLPopupViewController: UIViewController {
     
     private let popupView: UIView
     private let popupSize: CGSize
@@ -30,11 +30,11 @@ class BLPopupViewController: UIViewController {
         transitioningDelegate = self
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
         
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         if isConvenientDismissEnable {
@@ -68,17 +68,17 @@ class BLPopupViewController: UIViewController {
 }
 
 extension BLPopupViewController: UIViewControllerTransitioningDelegate {
-    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+    public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         let dimmingPresentationController = BLDimmingPresentationController(presentedViewController: presented, presenting: presenting)
         dimmingPresentationController.transparentView.backgroundColor = backgroundColor
         return dimmingPresentationController
     }
     
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return presentAnimationTransitioning
     }
     
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return dismissAnimationTransitioning
     }
 }

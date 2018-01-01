@@ -8,12 +8,12 @@
 
 import UIKit
 
-class BLSlideOutToLeftTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+public final class BLSlideOutToLeftTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.4
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         if let fromView = transitionContext.view(forKey: .from) {
             UIView.animate(withDuration: transitionDuration(using: transitionContext), animations: {
                 fromView.frame.origin = CGPoint(x: -UIScreen.main.bounds.width, y: 0)
