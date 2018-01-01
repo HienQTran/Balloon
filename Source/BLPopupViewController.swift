@@ -20,7 +20,7 @@ public class BLPopupViewController: UIViewController {
     
     var backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5) //black 0.5 opaque
     
-    init(popupView: UIView) {
+    public init(popupView: UIView) {
         self.popupView = popupView
         self.popupSize = popupView.frame.size
         
