@@ -62,7 +62,7 @@ class BLPopupViewController: UIViewController {
     }
     
     /// Dismiss the popup
-    func close() {
+    @objc func close() {
         self.dismiss(animated: true, completion: nil)
     }
 }
