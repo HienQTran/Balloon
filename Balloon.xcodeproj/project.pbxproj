@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2127BCBD1FE57A3B00C3FF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCBC1FE57A3B00C3FF66 /* AppDelegate.swift */; };
-		2127BCC41FE57A3B00C3FF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2127BCC31FE57A3B00C3FF66 /* Assets.xcassets */; };
-		2127BCD21FE57A3B00C3FF66 /* BalloonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCD11FE57A3B00C3FF66 /* BalloonTests.swift */; };
-		2127BCDD1FE57A3B00C3FF66 /* BalloonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCDC1FE57A3B00C3FF66 /* BalloonUITests.swift */; };
-		2127BCEB1FE57BE100C3FF66 /* BLPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCEA1FE57BE100C3FF66 /* BLPopupViewController.swift */; };
-		2127BCF11FE57DCA00C3FF66 /* BLSlideOutToLeftTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCF01FE57DCA00C3FF66 /* BLSlideOutToLeftTransitioning.swift */; };
-		2127BCF31FE57FB300C3FF66 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCF21FE57FB300C3FF66 /* DemoViewController.swift */; };
-		2127BCF51FE585F000C3FF66 /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127BCF41FE585F000C3FF66 /* DemoViewModel.swift */; };
-		212FF5381FF8D4FC00455F8D /* BLPopupViewController+Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212FF5371FF8D4FC00455F8D /* BLPopupViewController+Pop.swift */; };
-		212FF53A1FF8E11400455F8D /* BLDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212FF5391FF8E11400455F8D /* BLDimmingPresentationController.swift */; };
-		212FF53C1FF8EB4D00455F8D /* BLSlideInFromRightTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212FF53B1FF8EB4D00455F8D /* BLSlideInFromRightTransitioning.swift */; };
+		21072AB11FF953DF00F6D119 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21072AB01FF953DF00F6D119 /* Info.plist */; };
+		21072B301FF9EF7500F6D119 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21072B2F1FF9EF7500F6D119 /* Info.plist */; };
+		218D6B371FF94B06004BAEC0 /* BLPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6B351FF94B06004BAEC0 /* BLPopupViewController.swift */; };
+		218D6B381FF94B06004BAEC0 /* BLDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6B361FF94B06004BAEC0 /* BLDimmingPresentationController.swift */; };
+		218D6B3C1FF94B41004BAEC0 /* BLSlideInFromRightTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6B3A1FF94B41004BAEC0 /* BLSlideInFromRightTransitioning.swift */; };
+		218D6B3D1FF94B41004BAEC0 /* BLSlideOutToLeftTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6B3B1FF94B41004BAEC0 /* BLSlideOutToLeftTransitioning.swift */; };
+		218D6B401FF94B65004BAEC0 /* BLPopupViewController+Pop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6B3F1FF94B65004BAEC0 /* BLPopupViewController+Pop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21072AB01FF953DF00F6D119 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/BalloonUITests/Info.plist; sourceTree = "<group>"; };
+		21072B2F1FF9EF7500F6D119 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2127BCB91FE57A3B00C3FF66 /* Balloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2127BCBC1FE57A3B00C3FF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2127BCC31FE57A3B00C3FF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2127BCC81FE57A3B00C3FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2127BCCD1FE57A3B00C3FF66 /* BalloonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalloonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2127BCD11FE57A3B00C3FF66 /* BalloonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonTests.swift; sourceTree = "<group>"; };
-		2127BCD31FE57A3B00C3FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2127BCD81FE57A3B00C3FF66 /* BalloonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalloonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2127BCDC1FE57A3B00C3FF66 /* BalloonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonUITests.swift; sourceTree = "<group>"; };
-		2127BCDE1FE57A3B00C3FF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2127BCEA1FE57BE100C3FF66 /* BLPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLPopupViewController.swift; sourceTree = "<group>"; };
-		2127BCF01FE57DCA00C3FF66 /* BLSlideOutToLeftTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLSlideOutToLeftTransitioning.swift; sourceTree = "<group>"; };
-		2127BCF21FE57FB300C3FF66 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
-		2127BCF41FE585F000C3FF66 /* DemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
-		212FF5371FF8D4FC00455F8D /* BLPopupViewController+Pop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BLPopupViewController+Pop.swift"; sourceTree = "<group>"; };
-		212FF5391FF8E11400455F8D /* BLDimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLDimmingPresentationController.swift; sourceTree = "<group>"; };
-		212FF53B1FF8EB4D00455F8D /* BLSlideInFromRightTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLSlideInFromRightTransitioning.swift; sourceTree = "<group>"; };
+		218D6B351FF94B06004BAEC0 /* BLPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLPopupViewController.swift; path = Source/BLPopupViewController.swift; sourceTree = SOURCE_ROOT; };
+		218D6B361FF94B06004BAEC0 /* BLDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLDimmingPresentationController.swift; path = Source/BLDimmingPresentationController.swift; sourceTree = SOURCE_ROOT; };
+		218D6B3A1FF94B41004BAEC0 /* BLSlideInFromRightTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLSlideInFromRightTransitioning.swift; path = Source/BLSlideInFromRightTransitioning.swift; sourceTree = SOURCE_ROOT; };
+		218D6B3B1FF94B41004BAEC0 /* BLSlideOutToLeftTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLSlideOutToLeftTransitioning.swift; path = Source/BLSlideOutToLeftTransitioning.swift; sourceTree = SOURCE_ROOT; };
+		218D6B3F1FF94B65004BAEC0 /* BLPopupViewController+Pop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BLPopupViewController+Pop.swift"; path = "Source/BLPopupViewController+Pop.swift"; sourceTree = SOURCE_ROOT; };
+		218D6B421FF94B89004BAEC0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +72,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21072AA81FF951CA00F6D119 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				218D6B361FF94B06004BAEC0 /* BLDimmingPresentationController.swift */,
+				218D6B351FF94B06004BAEC0 /* BLPopupViewController.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		21072AAA1FF951EC00F6D119 /* Transition Effects */ = {
+			isa = PBXGroup;
+			children = (
+				218D6B3A1FF94B41004BAEC0 /* BLSlideInFromRightTransitioning.swift */,
+				218D6B3B1FF94B41004BAEC0 /* BLSlideOutToLeftTransitioning.swift */,
+			);
+			name = "Transition Effects";
+			sourceTree = "<group>";
+		};
+		21072AAD1FF9523E00F6D119 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				218D6B3F1FF94B65004BAEC0 /* BLPopupViewController+Pop.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		21072AAE1FF9525200F6D119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				218D6B421FF94B89004BAEC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21072AAF1FF953BB00F6D119 /* BalloonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21072AB01FF953DF00F6D119 /* Info.plist */,
+			);
+			name = BalloonUITests;
+			sourceTree = "<group>";
+		};
+		21072B2E1FF9EF7500F6D119 /* BalloonTests */ = {
+			isa = PBXGroup;
+			children = (
+				21072B2F1FF9EF7500F6D119 /* Info.plist */,
+			);
+			name = BalloonTests;
+			path = Tests/BalloonTests;
+			sourceTree = "<group>";
+		};
 		2127BCB01FE57A3B00C3FF66 = {
 			isa = PBXGroup;
 			children = (
-				2127BCBB1FE57A3B00C3FF66 /* Balloon */,
-				2127BCD01FE57A3B00C3FF66 /* BalloonTests */,
-				2127BCDB1FE57A3B00C3FF66 /* BalloonUITests */,
+				21F92B471FF93EC20044B0F3 /* Source */,
+				21072B2E1FF9EF7500F6D119 /* BalloonTests */,
+				21072AAF1FF953BB00F6D119 /* BalloonUITests */,
 				2127BCBA1FE57A3B00C3FF66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,63 +143,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2127BCBB1FE57A3B00C3FF66 /* Balloon */ = {
+		21F92B471FF93EC20044B0F3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				212FF53D1FF9205900455F8D /* ViewControllerWrappers */,
-				2127BCED1FE57D1900C3FF66 /* TransitionEffects */,
-				2127BCEC1FE57C1900C3FF66 /* Extensions */,
-				2127BCBC1FE57A3B00C3FF66 /* AppDelegate.swift */,
-				2127BCC31FE57A3B00C3FF66 /* Assets.xcassets */,
-				2127BCC81FE57A3B00C3FF66 /* Info.plist */,
-				2127BCF21FE57FB300C3FF66 /* DemoViewController.swift */,
-				2127BCF41FE585F000C3FF66 /* DemoViewModel.swift */,
+				21072AA81FF951CA00F6D119 /* Core */,
+				21072AAA1FF951EC00F6D119 /* Transition Effects */,
+				21072AAD1FF9523E00F6D119 /* Extensions */,
+				21072AAE1FF9525200F6D119 /* Supporting Files */,
 			);
-			path = Balloon;
-			sourceTree = "<group>";
-		};
-		2127BCD01FE57A3B00C3FF66 /* BalloonTests */ = {
-			isa = PBXGroup;
-			children = (
-				2127BCD11FE57A3B00C3FF66 /* BalloonTests.swift */,
-				2127BCD31FE57A3B00C3FF66 /* Info.plist */,
-			);
-			path = BalloonTests;
-			sourceTree = "<group>";
-		};
-		2127BCDB1FE57A3B00C3FF66 /* BalloonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2127BCDC1FE57A3B00C3FF66 /* BalloonUITests.swift */,
-				2127BCDE1FE57A3B00C3FF66 /* Info.plist */,
-			);
-			path = BalloonUITests;
-			sourceTree = "<group>";
-		};
-		2127BCEC1FE57C1900C3FF66 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				212FF5371FF8D4FC00455F8D /* BLPopupViewController+Pop.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2127BCED1FE57D1900C3FF66 /* TransitionEffects */ = {
-			isa = PBXGroup;
-			children = (
-				2127BCF01FE57DCA00C3FF66 /* BLSlideOutToLeftTransitioning.swift */,
-				212FF53B1FF8EB4D00455F8D /* BLSlideInFromRightTransitioning.swift */,
-			);
-			path = TransitionEffects;
-			sourceTree = "<group>";
-		};
-		212FF53D1FF9205900455F8D /* ViewControllerWrappers */ = {
-			isa = PBXGroup;
-			children = (
-				212FF5391FF8E11400455F8D /* BLDimmingPresentationController.swift */,
-				2127BCEA1FE57BE100C3FF66 /* BLPopupViewController.swift */,
-			);
-			path = ViewControllerWrappers;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2127BCC41FE57A3B00C3FF66 /* Assets.xcassets in Resources */,
+				21072B301FF9EF7500F6D119 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21072AB11FF953DF00F6D119 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212FF5381FF8D4FC00455F8D /* BLPopupViewController+Pop.swift in Sources */,
-				2127BCF51FE585F000C3FF66 /* DemoViewModel.swift in Sources */,
-				212FF53A1FF8E11400455F8D /* BLDimmingPresentationController.swift in Sources */,
-				2127BCF11FE57DCA00C3FF66 /* BLSlideOutToLeftTransitioning.swift in Sources */,
-				2127BCEB1FE57BE100C3FF66 /* BLPopupViewController.swift in Sources */,
-				212FF53C1FF8EB4D00455F8D /* BLSlideInFromRightTransitioning.swift in Sources */,
-				2127BCBD1FE57A3B00C3FF66 /* AppDelegate.swift in Sources */,
-				2127BCF31FE57FB300C3FF66 /* DemoViewController.swift in Sources */,
+				218D6B3D1FF94B41004BAEC0 /* BLSlideOutToLeftTransitioning.swift in Sources */,
+				218D6B3C1FF94B41004BAEC0 /* BLSlideInFromRightTransitioning.swift in Sources */,
+				218D6B381FF94B06004BAEC0 /* BLDimmingPresentationController.swift in Sources */,
+				218D6B401FF94B65004BAEC0 /* BLPopupViewController+Pop.swift in Sources */,
+				218D6B371FF94B06004BAEC0 /* BLPopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2127BCD21FE57A3B00C3FF66 /* BalloonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2127BCDD1FE57A3B00C3FF66 /* BalloonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +435,19 @@
 		2127BCE21FE57A3B00C3FF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ96SBWHN3;
-				INFOPLIST_FILE = Balloon/Info.plist;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hienquangtran.balloon.Balloon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,14 +456,19 @@
 		2127BCE31FE57A3B00C3FF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZ96SBWHN3;
-				INFOPLIST_FILE = Balloon/Info.plist;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hienquangtran.balloon.Balloon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
