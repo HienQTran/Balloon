@@ -1,0 +1,6 @@
+framework module Balloon {
+  umbrella header "Balloon-umbrella.h"
+
+  export *
+  module * { export * }
+}
